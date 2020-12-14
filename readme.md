@@ -16,6 +16,14 @@ flask run
 
 #
 
+# Export packages
+
+pip3 freeze > requirements.txt
+
+# Install package from requirements.txt
+
+pip3 install -r requirements.txt
+
 # Packages
 
 pip3 install flask
