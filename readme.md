@@ -40,6 +40,10 @@ pip3 install pymysql
 
 pip3 install flask-jwt-extended
 
+# swagger
+
+pip3 install flask_swagger flask_swagger_ui
+
 # Common Errors
 
 Instance of 'SQLAlchemy' has no 'Column' member (no-member) : https://stackoverflow.com/questions/53975234/instance-of-sqlalchemy-has-no-column-member-no-member
